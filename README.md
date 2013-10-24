@@ -14,7 +14,7 @@ Transformation between two images are used to compute 3D points by triangulation
 done for rest of the images. This yields multiple 3D point clouds but have different scale.
 
 So as to merge these point clouds one way is to built ratio histogram. 
-For example consider two point cloud and that they share some number of points that are common to both point clouds. A ratio of distance of a common point is computed. This is done for all available common point. And finally we have a histogram of ratio.
+For example consider two point cloud and that they share some number of points that are common to both point clouds. A ratio of distance of a common point is computed. This is done for all available common points. And finally we built a histogram of these ratio.
 The ratio which is repeated most is considered as a scaling factor for the two point clouds. Currently I am working on this part , that is multiple cloud merging.
 
 
