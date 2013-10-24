@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Camera_Intra_Param type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    2759.48 0. 1520.69 0.
+    2764.16 1006.81 0. 0. 1.</data></Camera_Intra_Param>
+<Camera_Disto_Param type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    7.5866597292895424e-002 -1.3478954124528610e+000
+    -3.1970252578538251e-003 5.8013158572620875e-004
+    3.4995371156648365e+000</data></Camera_Disto_Param>
+<Global_Error>6.9879268491995294e-001</Global_Error>
+</opencv_storage>
