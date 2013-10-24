@@ -32,6 +32,9 @@ Built the project in Qt.
 To run SfM project, images and intrinsic camera parameters are required. For the Camera calibration matrix, xml files of OpenCV format is used. The calibration matrix can also be entered through dialogbox.
 
 
+To run a demo, the folder Demo_data has a set images and the camera calibration file in xml format.
+
+
 Datasets:
 --------
 Standard datasets for SfM can be found here: http://cvlabwww.epfl.ch/~strecha/testimages.html
