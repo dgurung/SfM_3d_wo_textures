@@ -1,11 +1,9 @@
-Structure from Motion  
+3D from two images.
 ========================
-A Qt based gui for SfM using OpenCV and PCL library.
-(Currently under development)
+A Qt based gui for extracting 3D from two images using OpenCV and PCL library. The program builds 3D from two images only. Eventually it is supposed to build 3D from multiple images.  
 
 
-
-3D point cloud without texture mapping
+3D point cloud generation without texture mapping
 ----------------------------------------
 This project is for buidling 3D point cloud from multiple images of a rigid scene. The method for implementing SfM is described in 
 paper [1]. The basic idea is to first obtain 3D points from a pair of images. SURF feature matching is done between two images
@@ -49,5 +47,9 @@ http://phototour.cs.washington.edu/ModelingTheWorld_ijcv07.pdf
 http://www.robots.ox.ac.uk/~vgg/hzbook/
 
 1. Mastering OpenCV with Practical Computer Vision Projects
- https://github.com/royshil/SfM-Toy-Library
+ https://github.com/royshil/SfM-Toy-Library  
 
+
+Acknowledgements:
+----------------
+1. The numerical computation parts including, triangulation and finding camera matrix has been obtained from [here]( https://github.com/dgurung/SfM_3d_wo_textures/tree/master/src)
